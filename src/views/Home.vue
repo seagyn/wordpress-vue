@@ -1,8 +1,5 @@
 <template>
-  <div class="home">
-    <img class="logo" alt="Vue logo" src="../assets/wordcamp-logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
@@ -18,7 +15,4 @@ export default {
 </script>
 
 <style lang="scss">
-  .logo {
-    max-width: 200px;
-  }
 </style>

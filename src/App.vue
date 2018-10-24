@@ -38,14 +38,14 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <router-link class="button is-primary" to="/code-of-conduct">Buy Tickets</router-link>
+                <router-link class="button is-primary" to="/buy-tickets">Buy Tickets</router-link>
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container main-content">
       <router-view/>
     </div>
   </div>
@@ -60,4 +60,8 @@
   $info: $green;
 
   @import "~bulma/bulma";
+
+  .main-content {
+    padding-top: 20px;
+  }
 </style>
