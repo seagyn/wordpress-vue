@@ -6,7 +6,8 @@ Build a *basic* single-page application for the WordCamp Joburg site.
 
 ## Requirements
 
-You need [Yarn](https://yarnpkg.com/) installed.
+- You need [Yarn](https://yarnpkg.com/) installed.
+- You need the [Vue CLI](https://cli.vuejs.org/guide/installation.html) (version 3+) installed.
 
 ## Running the SPA
 
