@@ -5,7 +5,7 @@
                 <h1 class="is-size-1">Sponsors</h1>
             </div>
             <div class="column has-text-right">
-                <a class="button is-info" v-on:click="filterList('all')">All</a>
+                <a class="button is-info" v-on:click="filterSponsors('all')">All</a>
                 <a class="button is-info" v-for="sponsorLevel in sponsorLevels" v-bind:key="sponsorLevel.id" v-on:click="filterSponsors(sponsorLevel.id)">{{sponsorLevel.name}}</a>
             </div>
         </div>
